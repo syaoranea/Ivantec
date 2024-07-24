@@ -1,6 +1,6 @@
 {
-  "name": "ervy-ng",
-  "version": "1.7.0",
+  "name": "ivantec",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

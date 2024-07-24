@@ -25,7 +25,8 @@ import { ServicesDetailsComponent } from './components/pages/services-details/se
 import { AboutComponent } from './components/pages/about/about.component';
 
 const routes: Routes = [
-    {path: '', component: SaasHomeComponent},
+   /*  {path: '', component: SaasHomeComponent}, */
+    {path: '', component: StartupHomeComponent},
     {path: 'marketing', component: MarketingHomeComponent},
     {path: 'startup', component: StartupHomeComponent},
     {path: 'seo-agency', component: SeoAgencyHomeComponent},
