@@ -32,7 +32,7 @@ const routes: Routes = [
     {path: 'seo-agency', component: SeoAgencyHomeComponent},
     {path: 'about', component: AboutComponent},
     {path: 'services', component: ServicesComponent},
-    {path: 'services-details', component: ServicesDetailsComponent},
+    {path: 'services-details/:id', component: ServicesDetailsComponent},
     {path: 'projects', component: ProjectsComponent},
     {path: 'projects-details', component: ProjectsDetailsComponent},
     {path: 'team', component: TeamComponent},

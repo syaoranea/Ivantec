@@ -32,6 +32,7 @@ import { CheckoutComponent } from './components/pages/checkout/checkout.componen
 import { BlogComponent } from './components/pages/blog/blog.component';
 import { BlogDetailsComponent } from './components/pages/blog-details/blog-details.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
+import { ContatoComponent } from './components/pages/contato/contato.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +65,8 @@ import { ContactComponent } from './components/pages/contact/contact.component';
     CheckoutComponent,
     BlogComponent,
     BlogDetailsComponent,
-    ContactComponent
+    ContactComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,
